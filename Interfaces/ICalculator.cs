@@ -34,5 +34,13 @@ namespace SimpleCalculator.Interfaces
         /// <param name="b">A double</param>
         /// <returns>Division of two numbers</returns>
         double Divide(double a, double b);
+
+        /// <summary>
+        /// Exponent
+        /// </summary>
+        /// <param name="a">A double</param>
+        /// <param name="b">A double</param>
+        /// <returns>Exponent of a number</returns>
+        double Power(double a, double b);
     }
 }

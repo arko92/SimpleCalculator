@@ -16,5 +16,7 @@ namespace SimpleCalculator.Services
             return a / b;
         }
 
+        public double Power(double a, double b) => Math.Pow(a, b);
+
     }
 }
