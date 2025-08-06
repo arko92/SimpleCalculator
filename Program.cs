@@ -16,10 +16,11 @@ namespace SimpleCalculator
 
             // Perform calculations
             double additionResult = calculator.Add(number1, number2);
+            double exponentResult = calculator.Power(number1, number2);
 
             // Display the result
             Console.WriteLine($"Addition of {number1} and {number2} is: {additionResult}");
-
+            Console.WriteLine($"{number1}^{number2} = {exponentResult}");
         }
     }
 }
